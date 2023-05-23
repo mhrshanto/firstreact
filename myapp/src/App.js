@@ -1,25 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Arrow from './mycomponents/arrow'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World
-        </p>
-        <a
-          className="App-link"
-          href="https://codesplanner.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React With Codesplanner
-        </a>
-      </header>
+      <Arrow name="Codes Planner"></Arrow>
     </div>
-  );
-}
+  )
+};
 
 export default App;
